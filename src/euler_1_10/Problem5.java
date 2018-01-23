@@ -13,7 +13,7 @@ public class Problem5 {
      * **************************************************************************
      */
     public static int smallestMultiple(int range) {
-        int num = 10;
+        int num = range;
         boolean breakOutdone = false;
         while (true) {
             for (int i = 1; i <= range; i++) {
